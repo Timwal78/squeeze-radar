@@ -9,4 +9,8 @@ services:
     startCommand: uvicorn backend.main:app --host 0.0.0.0 --port 8000
     envVars:
       - key: TICKERS
-        value: "TSLA,AMD,GME,IONQ,ACHR,RCAT,SMR"
+        value: TSLA,AMD,GME,IONQ,ACHR,RCAT,SMR
+      # optional:
+      # - key: WEBHOOK
+      #   value: https://discord.com/api/webhooks/...
+
