@@ -11,5 +11,5 @@ services:
         value: TSLA,AMC,GME,IONQ,RCAT,SMR
       - key: ALPHA_VANTAGE_KEY
         sync: false
-      - key: DISCORD_WEBHOOK_URL
+      - key: DISCORD_WEBHOOK_URL 
         sync: false
