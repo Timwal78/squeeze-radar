@@ -4,7 +4,7 @@
 import os, time, requests
 
 TICKERS = os.getenv("TICKERS", "AMC,YYAI,GME,EPWK,NAK,FFAI,CDTG").split(",")
-ALPHA_KEY = os.getenv("WNFLQRHDA785MZRL")
+ALPHA_KEY = os.getenv("F6GL94S34HLAKT6I")
 DISCORD_WEBHOOK_URL = os.getenv("https://discord.com/api/webhooks/1432825526564683886/PHhN0YPIc45_lMhUHP0bAf9lIPPLi6IQpQYD9hYTwNRJNznhcNqbmTjCJkm483RVeKd_L")
 
 ALPHA_URL = "https://www.alphavantage.co/query"
