@@ -8,7 +8,7 @@ import requests
 import random
 
 # === SETTINGS ===
-TICKERS = [t.strip().upper() for t in os.getenv("TICKERS", "AMC,GME,BBBY").split(",")]
+TICKERS = [t.strip().upper() for t in os.getenv("TICKERS", "AMC,GME,FFAI,MNOV,EPWK,PLUG,NAK,ADTX,BIYA").split(",")]
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # Safety check
